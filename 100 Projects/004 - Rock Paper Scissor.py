@@ -33,8 +33,11 @@ scissors = '''
 '''
 
 
-if (me == 0 and computer == 0) or (me == 1 and computer == 1) or (me == 2 and computer == 2):
+if (me == 0 and computer == 0) \
+    or (me == 1 and computer == 1) \
+        or (me == 2 and computer == 2):
     print('DRAW! Try Again')
+
 elif me == 0 and computer == 1:
     print(f'{rock}\n Computer choose {paper}\n You Lose!')
 elif me == 1 and computer == 0:
