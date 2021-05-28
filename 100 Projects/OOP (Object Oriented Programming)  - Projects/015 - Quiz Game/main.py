@@ -1,8 +1,10 @@
+# A program that demonstrate an example of Quiz Game.
+
 from question_model import Question
 from data import question_data
 from quiz_brain import QuizBrain
 
-question_bank = []
+question_bank = [] # The question bank data was taken from the https://opentdb.com/api_config.php website.
 
 for question in question_data:
     question_text = question['question']
