@@ -1,3 +1,5 @@
+# Grapich User Interface used to show a geometric draw
+
 import turtle as t
 import random
 
