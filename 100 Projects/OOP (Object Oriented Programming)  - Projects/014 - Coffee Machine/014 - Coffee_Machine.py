@@ -1,12 +1,14 @@
+# Program that operates a coffee machine
+
 from menu import Menu, MenuItem
 from coffee_maker import CoffeeMaker
 from money_machine import MoneyMachine
 
-menu = Menu()
+menu = Menu() # Object being created from the module above
 coffee_maker = CoffeeMaker()
 money_machine = MoneyMachine()
 
-is_on = True
+is_on = True # Variable created for structure control reason on the while loop.
 
 while is_on:
     options = menu.get_items()
