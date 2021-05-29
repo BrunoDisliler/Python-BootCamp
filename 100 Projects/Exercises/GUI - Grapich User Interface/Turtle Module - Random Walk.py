@@ -1,3 +1,5 @@
+# Grapich User Interface Used to demonstrate a random walk with random rgb colors.
+
 import turtle as t
 import random
 
